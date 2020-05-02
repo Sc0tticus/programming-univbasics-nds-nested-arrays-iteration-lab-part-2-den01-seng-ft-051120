@@ -6,7 +6,11 @@ sorted_src=[]
 mins_src=[]
 while count < src.length do
   sorted_src << src[count].sort
-  mins_src << sorted_src[count]
+  mins_src << sorted_src[count][0]
+  count += 1 
+end 
+mins_src
+end 
 
 
   
