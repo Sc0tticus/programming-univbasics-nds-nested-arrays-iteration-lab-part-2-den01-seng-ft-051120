@@ -5,8 +5,8 @@ count=0
 sorted_src=[]
 mins_src=[]
 while count < src.length do
-  sorted_src<<src[count].sort
-  count += 1 
+  sorted_src << src[count].sort
+  mins_src << sorted_src[count]
 
 
   
